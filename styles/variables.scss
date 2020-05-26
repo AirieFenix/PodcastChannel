@@ -1,0 +1,46 @@
+// Variables for all CSS styles
+
+
+//// Main default variables
+$text-main-family: IBMPlexMono;
+$text-main-color: #060A24;
+
+//// Componentt variables
+//h1
+$h1-text-family: IBMPlexSans;
+$h1-size: 36px;
+$h1-line-height: 42px;
+
+//h3
+$h3-text-family: IBMPlexSans-SemiBold;
+$h3-text-size: 24px;
+
+//a
+$a-text-family: IBMPlexMono;
+$a-text-size: 16px;
+$a-line-height: 28px;
+$a-text-color: #060A24;
+
+//a:hover
+$a-hover-text-family: IBMPlexMono-Medium;
+$a-hover-text-color: #00F3BB;
+
+//a:active
+$a-active-text-color: #060A24;
+$a-active-line-height: 28px;
+$a-active-text-opacity: 0.56;
+
+//p
+$p-text-size: 14px;
+$p-text-height: 22px;
+
+//button
+$button-text-family: IBMPlexMono-Medium;
+$button-text-size: 16px;
+$button-line-height: 22px;
+$button-regular-color:#00F3BB;
+$button-hover-color-1: #0000FE;
+$button-hover-color-2: #00F0B8;
+
+//Hamburger menu
+$hamburger-menu-bg: #0000EC;
