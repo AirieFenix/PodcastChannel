@@ -1,3 +1,72 @@
+/* Variables for all CSS styles
+If not defined otherwise:
+opacity: 100%,
+color: white;
 
+*/
+body {
+  font-family: IBMPlexMono;
+  color: #060A24;
+  padding: 0;
+  margin: 0; }
+
+section {
+  width: 100%; }
+
+h1 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 24px; }
+
+p {
+  font-size: 14px; }
+
+button {
+  font-family: IBMPlexMono-Medium;
+  text-transform: uppercase;
+  width: 288px;
+  height: 48px;
+  font-size: 16px;
+  background-color: #00F3BB;
+  border: none; }
+
+iframe {
+  width: 320px;
+  height: 280px;
+  border-radius: 10px; }
+
+.section_container {
+  margin: 0 16px 0 16px; }
+
+.episode_container {
+  text-align: center; }
+
+.episode_image {
+  max-width: 258px;
+  height: 225px; }
+
+#section_episodes, #section_newsletter {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%); }
+
+.episode_player {
+  width: 100%; }
+
+#section_episodes h1 {
+  color: #FFFFFF; }
+
+#section_about-us div img {
+  width: 360px; }
+
+#section_about-us div {
+  text-align: center; }
+
+.guest_img {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.topic_item {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,14 +1,19 @@
-// Variables for all CSS styles
+/* Variables for all CSS styles
+If not defined otherwise:
+opacity: 100%,
+color: white;
 
+*/
 
 //// Main default variables
-$text-main-family: IBMPlexMono;
-$text-main-color: #060A24;
+$global-text-family: IBMPlexMono;
+$global-text-color: #060A24;
+$global-text-color-inverse: #FFFFFF;
 
 //// Componentt variables
 //h1
 $h1-text-family: IBMPlexSans;
-$h1-size: 36px;
+$h1-text-size: 36px;
 $h1-line-height: 42px;
 
 //h3

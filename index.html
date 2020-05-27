@@ -9,80 +9,100 @@
 </head>
 
 <body>
-    <nav>
-        <img src="images/logo.svg" alt="">
-        <ul>
-            <li>Episodios</li>
-            <li>Nosotros</li>
-            <li>Entrevistas</li>
-            <li>Tópicos</li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <img src="images/logo.svg" alt="">
+            <ul>
+                <li>Episodios</li>
+                <li>Nosotros</li>
+                <li>Entrevistas</li>
+                <li>Tópicos</li>
+            </ul>
+        </nav>
+    </header>
     <section id="section_hero">
         <h1>
             Hello <span>world</span> pale blue dot.
-            <p>Un podcast que explora el mundo de la proramación. Nuevos episodios, todos los jueves cada 15 días.</p>
         </h1>
+        <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
         <button>
             Conocé más
         </button>
     </section>
     <section id="section_episodes">
-        <h1>Episodios</h1>
-        <div class="episode_player">
-            <img src="images/embed1.png" alt="" class="episode_image">
-        </div>
-        <div class="episode_player">
-            <img src="images/embed2.png" alt="" class="episode_image">
-        </div>
-        <div class="episode_player">
-            <img src="images/embed3.png" alt="" class="episode_image">
-        </div>
-        <div class="episode_player">
-            <img src="images/embed4.png" alt="" class="episode_image">
+        <div class="section_container">
+            <h1>Episodios</h1>
+            <div class="episode_player">
+                <!-- <img src="images/embed1.png" alt="" class="episode_image"> -->
+                <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" frameborder="0"
+                    allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="episode_player">
+                <!-- <img src="images/embed2.png" alt="" class="episode_image"> -->
+                <iframe src="https://open.spotify.com/embed-podcast/episode/7FjIUXEKSXwi2AjTJv1SML" frameborder="0"
+                    allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="episode_player">
+                <!-- <img src="images/embed3.png" alt="" class="episode_image"> -->
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" frameborder="0"
+                    allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="episode_player">
+                <!-- <img src="images/embed4.png" alt="" class="episode_image"> -->
+                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" frameborder="0"
+                    allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
         </div>
     </section>
     <section id="section_about-us">
+        <div class="section_container">
         <div>
             <img src="images/phone.png" alt="">
         </div>
         <h1>De dónde venimos</h1>
-        <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the 
-            Universe, are challenged by this point of pale light. 
+        <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+            Universe, are challenged by this point of pale light.
             Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness,
-             there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        </div>
     </section>
     <section id="section_interviews">
-        <h1>Invitadas/os especiales</h1>
-        <img src="images/Grace_Hopper.png" alt="" class="guest">
-        <img src="images/Katie-Bouman.png" alt="" class="guest">
-        <img src="images/Margaret_Hamilton.png" alt="" class="guest">
-        <img src="images/univac.png" alt="" class="guest">
-        <img src="images/eniac_operators.png" alt="" class="guest">
-        <img src="images/Susan_Kare.png" alt="" class="guest">
+        <div class="section_container">
+        <h1>Invitadas/os estelares</h1>
+        <img src="images/Grace_Hopper.png" alt="" class="guest_img">
+        <img src="images/Katie-Bouman.png" alt="" class="guest_img">
+        <img src="images/Margaret_Hamilton.png" alt="" class="guest_img">
+        <img src="images/univac.png" alt="" class="guest_img">
+        <img src="images/eniac_operators.png" alt="" class="guest_img">
+        <img src="images/Susan_Kare.png" alt="" class="guest_img">
+    </div>
     </section>
     <section id="section_topics">
+        <div class="section_container">
         <h1>Algunos de nuestros temas</h1>
         <div class="topic_item">
             <img src="images/icon1.svg" alt="" class="topic_img">
-            <h4>Trabajo remoto</h4>
+            <h3>Trabajo remoto</h3>
         </div>
         <div class="topic_item">
             <img src="images/icon2.svg" alt="" class="topic_img">
-            <h4>Repensando la programacióno</h4>
+            <h3>Repensando la programación</h3>
         </div>
         <div class="topic_item">
             <img src="images/icon3.svg" alt="" class="topic_img">
-            <h4>Bases del código</h4>
+            <h3>Bases del código</h3>
         </div>
         <div class="topic_item">
             <img src="images/icon4.svg" alt="" class="topic_img">
-            <h4>Seguridad informática</h4>
+            <h3>Seguridad informática</h3>
         </div>
+    </div>
     </section>
     <section id="section_newsletter">
+        <div class="section_container">
         <h1>¿Querés las últimas novedades?</h1>
-        <button>Escuchá las últimas novedades</button>
+        <button>Escuchá los episodios</button>
+    </div>
     </section>
     <footer>
         <p class="text-footer">© 2019— Hello blue pale dot</p>
