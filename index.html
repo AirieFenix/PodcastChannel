@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <title>Podcast Channel</title>
 </head>
@@ -13,6 +15,9 @@
     <header>
         <nav>
             <img src="images/logo.svg" alt="">
+            <span></span>
+            <span></span>
+            <span></span>
             <ul>
                 <li>Episodios</li>
                 <li>Nosotros</li>
@@ -22,76 +27,94 @@
         </nav>
     </header>
     <section id="section_hero">
-        <h1>
-            Hello <span>world</span> pale blue dot.
-        </h1>
-        <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
-        <button>
-            Conocé más
-        </button>
+        <div class="section_container">
+            <h1 id="h1_hero">
+                Hello <span class="line-through">world</span> pale blue dot.</h1>
+            <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <div class="center_content">
+                <button>
+                    Conocé más
+                </button>
+            </div>
+        </div>
     </section>
     <section id="section_episodes">
-        <div>
-        <h1>Episodios</h1>
-        <div class="episode_player">
-            <!-- <img src="images/embed1.png" alt="" class="episode_image"> -->
-            <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <div class="section_container">
+            <div>
+                <h1>Episodios</h1>
+                <div class="episode_player">
+                    <!-- <img src="images/embed1.png" alt="" class="episode_image"> -->
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="episode_player">
+                    <!-- <img src="images/embed2.png" alt="" class="episode_image"> -->
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7FjIUXEKSXwi2AjTJv1SML" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="episode_player">
+                    <!-- <img src="images/embed3.png" alt="" class="episode_image"> -->
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="episode_player">
+                    <!-- <img src="images/embed4.png" alt="" class="episode_image"> -->
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
         </div>
-        <div class="episode_player">
-            <!-- <img src="images/embed2.png" alt="" class="episode_image"> -->
-            <iframe src="https://open.spotify.com/embed-podcast/episode/7FjIUXEKSXwi2AjTJv1SML" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-        <div class="episode_player">
-            <!-- <img src="images/embed3.png" alt="" class="episode_image"> -->
-            <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-        <div class="episode_player">
-            <!-- <img src="images/embed4.png" alt="" class="episode_image"> -->
-            <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-    </div>
     </section>
     <section id="section_about-us">
-        <div>
-            <img src="images/phone.png" alt="">
+        <div class="section_container">
+            <div class="center_content">
+                <img src="images/phone.png" alt="">
+            </div>
+            <h1>De dónde venimos</h1>
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+                Universe, are challenged by this point of pale light.
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                vastness,
+                there is no hint that help will come from elsewhere to save us from ourselves.</p>
         </div>
-        <h1>De dónde venimos</h1>
-        <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
-            Universe, are challenged by this point of pale light.
-            Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness,
-            there is no hint that help will come from elsewhere to save us from ourselves.</p>
     </section>
     <section id="section_interviews">
-        <h1>Invitadas/os estelares</h1>
-        <img src="images/Grace_Hopper.png" alt="" class="guest_img">
-        <img src="images/Katie-Bouman.png" alt="" class="guest_img">
-        <img src="images/Margaret_Hamilton.png" alt="" class="guest_img">
-        <img src="images/univac.png" alt="" class="guest_img">
-        <img src="images/eniac_operators.png" alt="" class="guest_img">
-        <img src="images/Susan_Kare.png" alt="" class="guest_img">
+        <div class="section_container">
+            <h1>Invitadas/os estelares</h1>
+            <img src="images/Grace_Hopper.png" alt="" class="guest_img">
+            <img src="images/Katie-Bouman.png" alt="" class="guest_img">
+            <img src="images/Margaret_Hamilton.png" alt="" class="guest_img">
+            <img src="images/univac.png" alt="" class="guest_img">
+            <img src="images/eniac_operators.png" alt="" class="guest_img">
+            <img src="images/Susan_Kare.png" alt="" class="guest_img">
+        </div>
     </section>
     <section id="section_topics">
-        <h1>Algunos de nuestros temas</h1>
-<div class="topic_item">
-            <img src="images/icon1.svg" alt="" class="topic_img">
-            <h3>Trabajo remoto</h3>
-        </div>
-        <div class="topic_item">
-            <img src="images/icon2.svg" alt="" class="topic_img">
-            <h3>Repensando la programación</h3>
-        </div>
-        <div class="topic_item">
-            <img src="images/icon3.svg" alt="" class="topic_img">
-            <h3>Bases del código</h3>
-        </div>
-        <div class="topic_item">
-            <img src="images/icon4.svg" alt="" class="topic_img">
-            <h3>Seguridad informática</h3>
+        <div class="section_container">
+            <h1>Algunos de nuestros temas</h1>
+            <div class="topic_item">
+                <img src="images/icon1.svg" alt="" class="topic_img">
+                <h3>Trabajo remoto</h3>
+            </div>
+            <div class="topic_item">
+                <img src="images/icon2.svg" alt="" class="topic_img">
+                <h3>Repensando la programación</h3>
+            </div>
+            <div class="topic_item">
+                <img src="images/icon3.svg" alt="" class="topic_img">
+                <h3>Bases del código</h3>
+            </div>
+            <div class="topic_item">
+                <img src="images/icon4.svg" alt="" class="topic_img">
+                <h3>Seguridad informática</h3>
+            </div>
         </div>
     </section>
     <section id="section_newsletter">
-        <h1>¿Querés las últimas novedades?</h1>
-        <button>Escuchá los episodios</button>
+        <div class="section_container">
+            <h1>¿Querés las últimas novedades?</h1>
+            <button>Escuchá los episodios</button>
+        </div>
     </section>
     <footer>
         <p class="text-footer">© 2019— Hello blue pale dot</p>

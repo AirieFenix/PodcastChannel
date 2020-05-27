@@ -2,6 +2,7 @@
 
 // Imports
 @import "variables";
+@import "layout";
 
 body {
     font-family: $global-text-family;
@@ -18,6 +19,7 @@ h1 {
     font-family: $h1-text-family;
     font-size: $h1-text-size;
     line-height: $h1-line-height;
+    margin-bottom: 16px;
 }
 
 h3 {
@@ -29,20 +31,28 @@ p {
     font-size: $p-text-size;
 }
 
+ul {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
 button {
     font-family: $button-text-family;
     font-weight: 500;
     text-transform: uppercase;
     width: 288px;
     height: 48px;
+    margin-top: 36px;
     font-size: $button-text-size;
     background-color: $button-regular-color;
     border: none;
-}
-
-button:hover {
-    background-image: linear-gradient(225deg, $button-hover-color-1, $button-hover-color-2);
-    color: $global-text-color-inverse;
+    &:hover {
+        background-image: linear-gradient(225deg, $button-hover-color-1, $button-hover-color-2);
+        color: $global-text-color-inverse;
+    }
 }
 
 iframe {
@@ -51,12 +61,8 @@ iframe {
     border-radius: 10px;
 }
 
-span {
+.line-through {
     text-decoration: line-through;
-}
-
-.section_container {
-    margin: 0 16px 0 16px;
 }
 
 .episode_container {
@@ -84,14 +90,15 @@ span {
     width: 360px;
 }
 
-#section_about-us div {
-    text-align: center;
-}
+// #section_about-us div {
+//     text-align: center;
+// }
 
 .guest_img {
     width: 100%;
     margin: 0;
     padding: 0;
+    display: block;
 }
 
 .topic_item {

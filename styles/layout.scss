@@ -1,2 +1,54 @@
 /* Layout of components (includes position, margin, padding, etc).
 */
+
+nav {
+    display: inline-block;
+    margin: 16px 0px 0px 16px;
+    img {
+      //  margin-top: 16px;
+    }
+}
+
+section {
+    display:inline-block;
+    margin-top: 27px;
+    margin-bottom: 27px;
+
+    p {
+        margin: 18px 16px 18px 16px;
+    }
+}
+
+h1 {
+    margin: 16px 16px 0px 16px;
+}
+
+ul {
+    position: absolute;
+    right: 16px;
+}
+
+#section_episodes {
+    padding-top: 64px;
+}
+
+#section_newsletter {
+    text-align: center;
+    height: 341px;
+}
+
+.episode_player {
+    text-align: center;
+}
+
+.img_center {
+    text-align: center;
+} 
+
+#h1_hero {
+    width: 70%;
+}
+
+.center_content {
+    text-align: center;
+}

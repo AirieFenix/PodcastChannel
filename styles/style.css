@@ -4,6 +4,45 @@ opacity: 100%,
 color: white;
 
 */
+/* Layout of components (includes position, margin, padding, etc).
+*/
+nav {
+  display: inline-block;
+  margin: 16px 0px 0px 16px; }
+
+section {
+  display: inline-block;
+  margin-top: 27px;
+  margin-bottom: 27px; }
+  section p {
+    margin: 18px 16px 18px 16px; }
+
+h1 {
+  margin: 16px 16px 0px 16px; }
+
+ul {
+  position: absolute;
+  right: 16px; }
+
+#section_episodes {
+  padding-top: 64px; }
+
+#section_newsletter {
+  text-align: center;
+  height: 341px; }
+
+.episode_player {
+  text-align: center; }
+
+.img_center {
+  text-align: center; }
+
+#h1_hero {
+  width: 70%; }
+
+.center_content {
+  text-align: center; }
+
 body {
   font-family: IBM Plex Mono;
   color: #060A24;
@@ -16,7 +55,8 @@ section {
 h1 {
   font-family: IBM Plex Sans;
   font-size: 36px;
-  line-height: 42px; }
+  line-height: 42px;
+  margin-bottom: 16px; }
 
 h3 {
   font-family: IBM Plex Sans SemiBold;
@@ -25,30 +65,33 @@ h3 {
 p {
   font-size: 14px; }
 
+ul {
+  display: none; }
+
+li {
+  list-style: none; }
+
 button {
   font-family: "IBM Plex Mono";
   font-weight: 500;
   text-transform: uppercase;
   width: 288px;
   height: 48px;
+  margin-top: 36px;
   font-size: 16px;
   background-color: #00F3BB;
   border: none; }
-
-button:hover {
-  background-image: linear-gradient(225deg, #0000FE, #00F0B8);
-  color: #FFFFFF; }
+  button:hover {
+    background-image: linear-gradient(225deg, #0000FE, #00F0B8);
+    color: #FFFFFF; }
 
 iframe {
   width: 320px;
   height: 280px;
   border-radius: 10px; }
 
-span {
+.line-through {
   text-decoration: line-through; }
-
-.section_container {
-  margin: 0 16px 0 16px; }
 
 .episode_container {
   text-align: center; }
@@ -68,13 +111,11 @@ span {
 #section_about-us div img {
   width: 360px; }
 
-#section_about-us div {
-  text-align: center; }
-
 .guest_img {
   width: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  display: block; }
 
 .topic_item {
   text-align: center; }
