@@ -31,6 +31,10 @@ button {
   background-color: #00F3BB;
   border: none; }
 
+button:hover {
+  background-image: linear-gradient(90deg, #0000FE, #00F0B8);
+  color: #FFFFFF; }
+
 iframe {
   width: 320px;
   height: 280px;

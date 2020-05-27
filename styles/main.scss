@@ -36,6 +36,11 @@ button {
     border: none;
 }
 
+button:hover {
+    background-image: linear-gradient(90deg, $button-hover-color-1, $button-hover-color-2);
+    color: $global-text-color-inverse;
+}
+
 iframe {
     width:320px;
     height:280px;
