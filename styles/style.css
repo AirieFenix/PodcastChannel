@@ -5,7 +5,7 @@ color: white;
 
 */
 body {
-  font-family: IBMPlexMono;
+  font-family: IBM Plex Mono;
   color: #060A24;
   padding: 0;
   margin: 0; }
@@ -14,16 +14,20 @@ section {
   width: 100%; }
 
 h1 {
-  font-size: 36px; }
+  font-family: IBM Plex Sans;
+  font-size: 36px;
+  line-height: 42px; }
 
 h3 {
+  font-family: IBM Plex Sans SemiBold;
   font-size: 24px; }
 
 p {
   font-size: 14px; }
 
 button {
-  font-family: IBMPlexMono-Medium;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
   text-transform: uppercase;
   width: 288px;
   height: 48px;
@@ -32,7 +36,7 @@ button {
   border: none; }
 
 button:hover {
-  background-image: linear-gradient(90deg, #0000FE, #00F0B8);
+  background-image: linear-gradient(225deg, #0000FE, #00F0B8);
   color: #FFFFFF; }
 
 iframe {
