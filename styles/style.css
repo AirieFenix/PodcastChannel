@@ -4,7 +4,7 @@ opacity: 100%,
 color: white;
 
 */
-/* Layout of components (includes position, margin, padding, etc).
+/* Layout of pages (includes position, margin, padding, etc).
 */
 nav {
   display: inline-block;
@@ -43,6 +43,9 @@ ul {
 .center_content {
   text-align: center; }
 
+/*
+    Style of each component
+*/
 body {
   font-family: IBM Plex Mono;
   color: #060A24;
