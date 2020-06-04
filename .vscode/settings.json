@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.automationShell.windows": "",
+    "editor.rulers": [80,120,140],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#242729"
+    },
+    "editor.minimap.maxColumn": 80,
+    "editor.fontSize": 13
+}
