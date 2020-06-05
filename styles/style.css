@@ -6,6 +6,23 @@ color: white;
 */
 /* Layout of pages (includes position, margin, padding, etc).
 */
+img {
+  max-width: 50%; }
+
+body {
+  position: relative; }
+  body html {
+    margin: 0;
+    padding: 0; }
+
+.main_container {
+  width: 90vw;
+  margin: auto; }
+
+.section_container {
+  width: 90vw;
+  margin: auto; }
+
 /*
     Style of each component
 */
@@ -22,6 +39,7 @@ h1 {
   font-family: IBM Plex Sans;
   font-size: 36px;
   line-height: 42px;
+  font-weight: 500;
   margin-bottom: 16px; }
 
 h3 {
@@ -41,7 +59,7 @@ button {
   font-family: "IBM Plex Mono";
   font-weight: 500;
   text-transform: uppercase;
-  width: 288px;
+  width: 100%;
   height: 48px;
   margin-top: 36px;
   font-size: 16px;
@@ -52,27 +70,17 @@ button {
     color: #FFFFFF; }
 
 iframe {
-  width: 320px;
+  width: 298px;
   height: 280px;
   border-radius: 10px; }
 
 .line-through {
   text-decoration: line-through; }
 
-.episode_container {
-  text-align: center; }
-
-.episode_image {
-  max-width: 258px;
-  height: 225px; }
-
 #section_episodes, #section_newsletter {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%); }
   #section_episodes h1, #section_newsletter h1 {
     color: #FFFFFF; }
-
-.episode_player {
-  width: 100%; }
 
 #section_about-us div img {
   width: 360px; }

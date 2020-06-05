@@ -1,2 +1,31 @@
 /* Layout of pages (includes position, margin, padding, etc).
 */
+
+// TEMPORAL!!!!!!! FIX IT!!!!!
+img  {
+    max-width: 50%;
+}
+
+body {
+    position: relative;
+    html {
+        margin: 0;
+        padding: 0;
+    }
+}
+    
+
+.main_container {
+    width: 90vw;
+    margin: auto;
+}
+
+.section_container {
+    width: 90vw;
+    margin: auto;
+}
+
+// .full_width {
+//     position: relative;
+//     width: 100vw;   
+// }
