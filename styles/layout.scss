@@ -3,7 +3,7 @@
 
 // TEMPORAL!!!!!!! FIX IT!!!!!
 img  {
-    max-width: 50%;
+    // max-width: 50%;
 }
 
 body {
@@ -25,7 +25,26 @@ body {
     margin: auto;
 }
 
-// .full_width {
-//     position: relative;
-//     width: 100vw;   
-// }
+section {
+    position: relative;
+}
+
+.full_width {
+    // position: relative;
+    // display: block;
+    // left: -5vw;
+    // margin: 0;
+    // padding: 0;
+    // width: 100vw;   
+}
+
+iframe {
+    // display: none;
+}
+
+.skew_clip {
+    clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+    padding-top: 50px;
+    padding-bottom: 144px;
+    margin-top: 24px;
+}

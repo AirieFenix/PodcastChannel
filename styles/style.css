@@ -6,9 +6,6 @@ color: white;
 */
 /* Layout of pages (includes position, margin, padding, etc).
 */
-img {
-  max-width: 50%; }
-
 body {
   position: relative; }
   body html {
@@ -22,6 +19,15 @@ body {
 .section_container {
   width: 90vw;
   margin: auto; }
+
+section {
+  position: relative; }
+
+.skew_clip {
+  clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+  padding-top: 50px;
+  padding-bottom: 144px;
+  margin-top: 24px; }
 
 /*
     Style of each component
@@ -84,12 +90,6 @@ iframe {
 
 #section_about-us div img {
   width: 360px; }
-
-.guest_img {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: block; }
 
 .topic_item {
   text-align: center; }
