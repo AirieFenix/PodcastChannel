@@ -1,11 +1,6 @@
 /* Layout of pages (includes position, margin, padding, etc).
 */
 
-// TEMPORAL!!!!!!! FIX IT!!!!!
-img  {
-    // max-width: 50%;
-}
-
 body {
     position: relative;
     html {
@@ -13,7 +8,6 @@ body {
         padding: 0;
     }
 }
-    
 
 .main_container {
     width: 90vw;
@@ -27,24 +21,36 @@ body {
 
 section {
     position: relative;
-}
-
-.full_width {
-    // position: relative;
-    // display: block;
-    // left: -5vw;
-    // margin: 0;
-    // padding: 0;
-    // width: 100vw;   
-}
-
-iframe {
-    // display: none;
+    z-index: 1;
 }
 
 .skew_clip {
-    clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+    clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
     padding-top: 50px;
-    padding-bottom: 144px;
     margin-top: 24px;
+}
+
+#section_episodes::after {
+}
+
+#section_about-us img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+#section_newsletter {
+    text-align: center;
+}
+
+#section_newsletter .skew_clip {
+    clip-path: polygon(0 55%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+#section_interviews img {
+    display: block;
+    position: relative;
+    left: -5vw;
+    max-width: 100vw;
 }
