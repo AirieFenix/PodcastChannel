@@ -25,8 +25,9 @@ section {
   z-index: 1; }
 
 .skew_clip {
-  clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
   padding-top: 50px;
+  padding-bottom: 145px;
   margin-top: 24px; }
 
 #section_about-us img {
