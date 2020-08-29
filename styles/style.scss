@@ -8,7 +8,6 @@ body {
 section,
 footer {
     width: 90vw;
-    margin: auto;
     padding-left: 5vw;
     padding-right: 5vw;
 }
@@ -33,32 +32,19 @@ li {
     }
 }
 
-// nav {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-// }
-
 #section_about-us img {
-    /* position: relative;
-    top: -98px;
-    background-color: red; */
     transform: translateY(-100px);
     margin-bottom: -100px;
 }
-
-/* #section_about-us h1 {
-    transform: translateY(-100px);
-}
-
-#section_about-us h3 {
-    transform: translateY(-100px);
-} */
 
 #section_about-us {
     display: flex;
     flex-flow: row wrap;
     z-index: 2;
+}
+
+#section_news {
+    padding-bottom: 67px;
 }
 
 h1 {
@@ -70,13 +56,13 @@ h1 {
     font-weight: 500;
 }
 
-h1::after {
-    content: ".";
-    color: blue;
-}
-
 span {
-    text-decoration: line-through;
+    &.line-through {
+        text-decoration: line-through;
+    }
+    &.blue-dot {
+        color: #0000EC;
+    }
 }
 
 .container {
@@ -99,7 +85,6 @@ span {
 .episodes_container {
     position: relative;
     width: 90vw;
-    // left: -5px;
 }
 
 .skewed {
@@ -174,6 +159,7 @@ p {
 
 footer {
     text-align: center;
+    margin-bottom: 31px;
 }
 
 .container_icons {
