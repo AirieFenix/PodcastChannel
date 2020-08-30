@@ -67,7 +67,7 @@ span.line-through {
 }
 
 span.blue-dot {
-  color: #0000EC;
+  color: #0000ec;
 }
 
 .container {
@@ -212,7 +212,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 nav .hamburguesa {
@@ -273,7 +273,7 @@ nav ul {
   right: 0;
   overflow: hidden;
   list-style: none;
-  background: #0000EC;
+  background: #0000ec;
   height: 0px;
 }
 
@@ -283,10 +283,10 @@ nav ul li {
 }
 
 nav ul li a {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   letter-spacing: 0;
   line-height: 28px;
   position: relative;
