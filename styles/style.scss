@@ -47,7 +47,8 @@ li {
     padding-bottom: 67px;
 }
 
-h1 {
+h1,
+h2 {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 36px;
     color: #060a24;
@@ -254,5 +255,227 @@ nav {
         opacity: 0;
         z-index: 2;
         position: absolute;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+
+    .btn {
+        max-width: 345px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    section {
+        width: auto;
+        padding-left: 100px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h1,
+    h2 {
+        margin-left: 100px;
+    }
+
+    p {
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+
+    img {
+        width: auto !important;
+    }
+
+    iframe {
+        max-width: 90%;
+        margin-bottom: 64px;
+        margin-top: 8px;
+    }
+
+    #section_hero {
+        padding-bottom: 5px;
+        p {
+            max-width: 628px;
+            margin-bottom: 56px;
+        }
+
+        p,
+        .btn {
+            margin-left: 100px;
+        }
+    }
+
+    #section_about-us {
+        padding-top: 0px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0;
+
+        h2 {
+            margin-left: 0;
+        }
+
+        p {
+            max-width: 464px;
+        }
+        img {
+            max-width: 457px;
+            transform: translateY(-175px);
+            margin-bottom: -100px;
+        }
+    }
+
+    #section_episodes {
+        padding-top: 0px;
+        padding-bottom: 232px;
+
+        h2 {
+            margin-top: 186px;
+            margin-bottom: 18px;
+        }
+    }
+
+    #section_interviews {
+        width: 100%;
+        padding: 0;
+
+        h2 {
+            padding-left: 100px;
+        }
+
+        img {
+            display: block;
+            position: relative;
+            left: auto;
+        }
+    }
+
+    #section_news {
+        text-align: center;
+        padding-top: 213px;
+        padding-bottom: 151px;
+        h2 {
+            margin: auto;
+        }
+        .btn {
+            margin-top: 35px;
+        }
+    }
+
+    #section_topics {
+        padding: 0;
+        h2 {
+            margin-left: 220px;
+        }
+    }
+
+    .skewed {
+        clip-path: polygon(0 15%, 100% 0%, 100% 84%, 0% 100%);
+    }
+
+    .episodes_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        // row-gap: 36px;
+        // column-gap: 36px;
+    }
+
+    .topics_container {
+        padding-right: 100px;
+        padding-left: 120px;
+        padding-top: 69px;
+        padding-bottom: 34px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .image_mosaic {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0;
+    }
+
+    .img__guest {
+        max-width: 480px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn {
+        width: 345px;
+    }
+
+    img {
+        &.full_width {
+            max-width: 100%;
+        }
+    }
+
+    nav {
+        height: auto;
+        img {
+            margin-left: 100px;
+            width: 36px;
+        }
+        .hamburguesa {
+            margin-right: 50px;
+        }
+        input {
+            display: none;
+        }
+        span {
+            display: none;
+        }
+        ul {
+            position: relative;
+            top: 0;
+            right: 0;
+            overflow: hidden;
+            background: unset;
+            height: unset;
+            li {
+                margin: unset;
+                margin-right: 48px;
+                display: inline-block;
+                margin-top: 16px;
+                margin-bottom: 16px;
+                a {
+                    padding: unset;
+                    line-height: unset;
+                    color: black;
+                    &:hover {
+                        color: #00f3bb;
+                        text-decoration: line-through;
+                    }
+                    &:active {
+                        color: rgba(6, 10, 36, 0.56);
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        padding-left: 100px;
+        padding-right: 100px;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: baseline;
+
+        .container_icons {
+            padding-right: 50px;
+        }
     }
 }

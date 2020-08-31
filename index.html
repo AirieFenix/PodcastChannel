@@ -18,24 +18,24 @@
                 <span></span>
                 <span></span>
                 <ul class="uppercase">
-                    <li><a href="#episodios">Episodio</a></li>
-                    <li><a href="#nosotros">Nosotros</a></li>
-                    <li><a href="#entrevistas">Entrevistas</a></li>
-                    <li><a href="#topicos">Tópicos</a></li>
+                    <li><a href="#section_episodes">Episodios</a></li>
+                    <li><a href="#section_about-us">Nosotros</a></li>
+                    <li><a href="#section_interviews">Entrevistas</a></li>
+                    <li><a href="#section_topics">Tópicos</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <div class="container">
         <section id="section_hero">
-            <h1>Hello <span class="line-through">world</span> pale blue dot<span class="blue-dot">.</span></h1> <!-- A DOT GOES HERE, USE ::AFTER-->
+            <h1>Hello <span class="line-through">world</span> pale blue dot<span class="blue-dot">.</span></h1>
             <p>
                 Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.
             </p>
-            <a class="btn uppercase" href="">Conocé más</a>
+            <a class="btn uppercase" href="#section_about-us">Conocé más</a>
         </section>
         <section id="section_episodes" class="alt_bkg_color skewed">
-            <h1 class="secondary_color">Episodios</h1>
+            <h2 class="secondary_color">Episodios</h2>
             <div class="episodes_container">
                 <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%"
                     height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -49,53 +49,60 @@
         </section>
         <section id="section_about-us">
             <img class="full_width" src="images/phone.png" alt="">
-            <h1>De dónde venimos</h1>
-            <p>
-                Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
-                Universe, are challenged by this point of pale light.
-            </p>
-            <p>
-                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
-                vastness,
-                there is no hint that help will come from elsewhere to save us from ourselves.
-            </p>
+            <div class="origins_block">
+                <h2>De dónde venimos</h2>
+                <p>
+                    Our posturings, our imagined self-importance, the delusion that we have some privileged position in
+                    the
+                    Universe, are challenged by this point of pale light.
+                </p>
+                <p>
+                    Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                    vastness,
+                    there is no hint that help will come from elsewhere to save us from ourselves.
+                </p>
+            </div>
         </section>
         <section id="section_interviews">
-            <h1>Invitadas/os estelares</h1>
-            <img src="images/Grace_Hopper.png" alt="" class="img__guest full_width">
-            <img src="images/Katie-Bouman.png" alt="" class="img__guest full_width">
-            <img src="images/Margaret_Hamilton.png" alt="" class="img__guest full_width">
-            <img src="images/univac.png" alt="" class="img__guest full_width">
-            <img src="images/eniac_operators.png" alt="" class="img__guest full_width">
-            <img src="images/Susan_Kare.png" alt="" class="img__guest full_width">
+            <h2>Invitadas/os estelares</h2>
+            <div class="image_mosaic">
+                <img src="images/Grace_Hopper.png" alt="" class="img__guest full_width">
+                <img src="images/Katie-Bouman.png" alt="" class="img__guest full_width">
+                <img src="images/Margaret_Hamilton.png" alt="" class="img__guest full_width">
+                <img src="images/univac.png" alt="" class="img__guest full_width">
+                <img src="images/eniac_operators.png" alt="" class="img__guest full_width">
+                <img src="images/Susan_Kare.png" alt="" class="img__guest full_width">
+            </div>
         </section>
         <section id="section_topics">
-            <h1>Algunos de nuestros temas</h1>
-            <div class="topic content__centered">
-                <img class="img__topic" src="images/icon1.svg" alt="">
-                <h3>Trabajo remoto</h3>
-            </div>
-            <div class="topic content__centered">
-                <img class="img__topic" src="images/icon2.svg" alt="">
-                <h3>Repensando la programación</h3>
-            </div>
-            <div class="topic content__centered">
-                <img class="img__topic" src="images/icon3.svg" alt="">
-                <h3>Bases del código</h3>
-            </div>
-            <div class="topic content__centered">
-                <img class="img__topic" src="images/icon4.svg" alt="">
-                <h3>Seguridad informática</h3>
+            <h2>Algunos de nuestros temas</h2>
+            <div class="topics_container">
+                <div class="topic content__centered">
+                    <img class="img__topic" src="images/icon1.svg" alt="">
+                    <h3>Trabajo remoto</h3>
+                </div>
+                <div class="topic content__centered">
+                    <img class="img__topic" src="images/icon2.svg" alt="">
+                    <h3>Repensando la programación</h3>
+                </div>
+                <div class="topic content__centered">
+                    <img class="img__topic" src="images/icon3.svg" alt="">
+                    <h3>Bases del código</h3>
+                </div>
+                <div class="topic content__centered">
+                    <img class="img__topic" src="images/icon4.svg" alt="">
+                    <h3>Seguridad informática</h3>
+                </div>
             </div>
         </section>
         <section id="section_news" class="skewed_top alt_bkg_color content__centered">
-            <h1 class="secondary_color">¿Querés las últimas novedades?</h1>
-            <a href="" class="btn uppercase">Escuchá los episodios</a>
+            <h2 class="secondary_color">¿Querés las últimas novedades?</h2>
+            <a href="#section_episodes" class="btn uppercase">Escuchá los episodios</a>
         </section>
         <footer>
             <p> © 2019- Hello pale blue dot</p>
             <div class="container_icons">
-                <a href="https://www.spotifyc.com" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
                 <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
